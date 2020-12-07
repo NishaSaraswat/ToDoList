@@ -1,0 +1,133 @@
+body{
+    margin:0px;
+    background-color:rgb(240, 260, 235);
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+    color: green;
+}
+h2{
+    color: rgb(130, 189, 36);
+    background-color:  rgb(230, 252, 230);
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    
+}
+h3{
+    font-weight: 600;
+    color:rgb(130, 189, 36);
+    background-color:honeydew;
+    display: inline-block;
+    padding:0px 15px 0px 15px ;
+    
+}
+form{
+    height: 100%;
+    width: 100%;
+
+}
+.main{
+    
+    display:flex;
+    flex-direction: column; 
+    align-items: center;  
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+form input{
+    margin-top: 20px;
+    border-radius: 5px;
+    line-height: 25px;
+    border-color: darkorange;      
+}
+.toDoDiv{
+    border:2px solid red;
+    margin: 10px 0 10px 0;
+    box-sizing: border-box;
+    margin:10px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:8%;
+
+}
+.doneDiv{
+    border:2px solid rgb(9, 165, 9);
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin:10px;
+    padding:10%;
+    flex-wrap: wrap;
+
+}
+button{
+    color:white;
+    background-color:rgb(152, 152, 218);
+    line-height: 24px;
+    border-radius: 5px;  
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    pointer-events: fill;
+}
+button:hover{
+
+    background-color:darkslateblue;
+    color:white;
+}
+li{
+    list-style: none;
+    
+}
+#todo-item{
+    position: relative;
+    border-radius: 5px;
+    line-height: 25px;
+    border-color: darkorange; 
+    margin-bottom: 10px;
+}
+.done-List{
+    position: relative;
+}
+.done-List #editButton{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 50px;
+}
+
+p{
+    padding-top: 40px;
+}
+.errors{
+    
+    color: orangered;
+    display: inline-block;
+    padding: 10px;
+    font-size: 2rem;
+
+}
+
+@media screen and (min-width:760px) and (max-width:930px){
+    
+    .main{
+        margin-left: 50px;
+        padding: 10px;
+    }
+}
+@media screen and (min-width:930px) and (max-width:1200px){
+    
+    .main{
+        margin-left: 50px;  
+        padding: 10px; 
+    }
+}
+@media screen and (min-width:1200px) and (max-width:2200px){
+    
+    .main{
+        margin-left: 50px; 
+        padding: 10px;  
+    }
+}
